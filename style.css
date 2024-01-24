@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+   
+}
+body
+{
+    background: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+.header
+{
+    height: 100vh;
+    width: 100%;
+    background:  url(header-image.png), linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8));
+    background-position: center;
+
+}
+nav
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 150;
+}
+.logo
+{
+    width: 150px;
+    cursor: pointer;
+}
+nav button
+{
+    border: 0;
+    outline: 0;
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+.quotes
+{
+    font-size: large;
+}
+.lang-btn
+{   
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid white;
+    background-color: transparent;
+    color:white;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.lang-btn img
+{
+    width: 10px;
+
+    margin-left: 10px;
+}
+.header-cnt
+{
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    margin-top: 5px;
+}
+.header-cnt h1
+{
+    font-size:60px;
+}
+.header-cnt P
+{
+    padding-top: 20px;
+}
+.email
+{
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30;
+    overflow: hidden;
+   
+}
+.email input
+{   
+    
+    flex: 1;
+    border: 0;
+    margin-left: 20px;
+}
+.email button
+{
+    background:red;
+    border: 0;
+    outline: 0;
+    color: white;
+    cursor: pointer;
+    padding: 15px 20px;
+}
+.parts
+{
+    padding: 50px 12%;
+    font-size: 24px;
+    align-items: center;
+}
+.row
+{   
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text
+{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img
+{
+    float:right;
+    flex-basis: 50%;
+    margin-bottom: 20px;
+   
+}
+.img
+{
+    display: block;
+    width: 1%;
+    margin: auto;
+}
+.row1
+{   
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text1
+{   
+    font-size: 24px;
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img1
+{
+    float:left;
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img1
+{
+    display: block;
+    width: 0%;
+    margin: auto;
+}
+.row2
+{   
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text2
+{
+    margin-left: 10%;
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.img2
+{   
+    
+    position: relative;
+    right: 250px;
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img2
+{   
+    max-width: 80%;
+    height: auto;
+    
+    max-width: 20%;
+    display: block;
+    width: 1%;
+    margin-right: 0%;
+}
+.row3
+{   
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text3
+{   
+    max-width: 80%;
+    height: auto;
+    font-size: 24px;
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img3
+{   
+    overflow: hidden;
+    float:left;
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img3
+{
+    display: block;
+    width: 0%;
+    margin: auto;
+}
+.faq
+{   
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+}
+.faq h1
+{
+ font-weight: 1000;
+ font-size: 50px;   
+}
+.accordion
+{   
+  
+    position: relative;
+    left:20px;
+    margin:10px;
+    width:100%;
+    max-width: 750px;
+}
+.accordion li
+{  
+align-content: center;
+ list-style: none;
+ width: 140%;
+ padding: 2px;
+}
+.accordion li label
+{   
+    text-align: center;
+    display:flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    
+}
+label::after
+{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 15px;
+}
+
+.email1
+{
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30;
+    overflow: hidden;
+    align-items: center;
+}
+.email1 input
+{   
+    
+    flex: 1;
+    border: 0;
+    margin-left: 20px;
+    align-items: center;
+}
+.email1 button
+{
+    background:red;
+    border: 0;
+    outline: 0;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    padding: 15px 20px;
+}
+.finalemail 
+{   
+    position: relative;
+    left: 150px;
+    text-align: center;
+    align-content: center;
+}
+.footer-table
+{
+ position: relative;
+left: 150px;
+ align-items: center;
+}
+.footer-table table
+{
+    width: 80%;
+    height: 25%;
+}
+.footer-table tr
+{    
+    cursor: pointer;
+    color: grey;
+}
